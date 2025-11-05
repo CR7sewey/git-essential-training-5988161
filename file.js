@@ -1,5 +1,9 @@
-const myFunc = () => {
-  return "Hello World!";
+const myFunc = (argument) => {
+  return "Hello World! - " + argument;
 }
 
-console.log(myFunc());
+const iLikeToReturnFunc = (argument) => {
+  return myFunc(argument);
+}
+
+console.log(iLikeToReturnFunc("Mike"));
