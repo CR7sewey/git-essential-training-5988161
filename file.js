@@ -6,4 +6,6 @@ const iLikeToReturnFunc = (argument) => {
   return myFunc(argument);
 }
 
+// Just a comment
+
 console.log(iLikeToReturnFunc("Mike"));
